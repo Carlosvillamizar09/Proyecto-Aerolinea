@@ -1,0 +1,30 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+@media (max-width: 956px){
+    .ordenadores {
+        display: none
+    }
+}
+
+@media (min-width: 1080px){
+    .celulares {
+        display: none
+    }
+}
+
+.campo {
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(206, 205, 205);
+}
+
+.campo::placeholder {
+    font-size: 15px;
+    padding: 10px;
+}
