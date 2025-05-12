@@ -1,0 +1,45 @@
+:root {
+    background: linear-gradient(to right, #d4418e, #0652dd);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.container {
+
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    border-radius: 5px;
+
+
+}
+
+.resolucion {
+    width: 100%;
+    text-align: center;
+}
+
+.sesion {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+
+@media (max-width: 800px){
+    .ordenadores {
+        display: none
+    }
+}
+
+@media (min-width: 1080px){
+    .celulares {
+        display: none
+    }
+}
