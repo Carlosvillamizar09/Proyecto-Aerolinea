@@ -14,6 +14,9 @@
 
 }
 
+.ordenadores {
+    color:white
+}
 
 @media (max-width: 800px){
     .ordenadores {
@@ -73,4 +76,9 @@ footer {
     a {
         color: rgb(69, 187, 255);
     }
+}
+
+
+p {
+    text-align: center;
 }

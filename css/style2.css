@@ -44,7 +44,7 @@ header {
 
 .campo::placeholder {
     font-size: 15px;
-    padding: 10px;
+    padding: 10px
     
 }
 
@@ -77,6 +77,11 @@ header {
     border-width: 0px;
     
 }
+
+.container2 {
+    color: gray
+}
+
 .resolucion {
     width: 100%;
     text-align: center;
@@ -88,10 +93,13 @@ header {
 
 }
 
+.ordenadores {
+    color:white
+}
 
 @media (max-width: 800px){
     .ordenadores {
-        display: none
+        display: none;
     }
 }
 
@@ -99,4 +107,8 @@ header {
     .celulares {
         display: none
     }
+}
+
+p { 
+    text-align: center;
 }
