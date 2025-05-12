@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+header {
+    margin: 200px;
+}
+
 @media (max-width: 956px){
     .ordenadores {
         display: none
@@ -27,4 +31,11 @@
 .campo::placeholder {
     font-size: 15px;
     padding: 10px;
+}
+
+.boton {
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: rgb(73, 166, 243);
 }
