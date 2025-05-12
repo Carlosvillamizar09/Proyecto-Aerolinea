@@ -3,16 +3,17 @@
 }
 
 .resolucion {
-    width: 99%;
+    width: 100%;
     text-align: center;
 }
 
-header {
+.sesion {
+    margin-top: 100px;
     text-align: center;
     
 }
 
-@media (max-width: 956px){
+@media (max-width: 800px){
     .ordenadores {
         display: none
     }
@@ -24,10 +25,17 @@ header {
     }
 }
 
+.inicio {
+    h1 {
+        font-weight: normal;
+    }
+}
+
 .campo {
+    
     margin: 10px;
     width: 300px;
-    height: 40px;
+    height: 45px;
     border-radius: 4px;
     border-width: 1px;
     border-color: rgb(206, 205, 205);
@@ -36,6 +44,12 @@ header {
 .campo::placeholder {
     font-size: 15px;
     padding: 10px;
+    
+}
+
+.cuadrito {
+
+    margin-right: 130px;
 }
 
 .boton {
@@ -46,4 +60,15 @@ header {
     background-color: rgb(42, 159, 255);
     border-radius: 5px;
     border-width: 0px;
+    
+}
+
+footer {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    a {
+        color: rgb(69, 187, 255);
+    }
 }
