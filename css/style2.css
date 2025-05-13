@@ -31,7 +31,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 50px;
+    padding: 10px 50px 20px 50px;
     flex-wrap: wrap;
 }
 
@@ -54,6 +54,56 @@ a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.)
 
 }
+
+.cuadro3 {
+    
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width:100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(123, 123, 123);
+    text-decoration: none;
+    font-size: 15px;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.)
+
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    p {
+        margin: 0px 0px 10px 0px;
+        font-size: 10px;
+        color: gray;
+    }
+}
+
+
+.arriba-derecha {
+    display: flex;
+    padding: 30px 10px 36px 90px;
+    font-size: 13px;
+    flex-direction: column;
+    p {
+        margin: 2px;
+        font-weight: 450
+    };
+        h3 {
+        margin: 5px;
+        font-size: 15px;
+        font-weight: 600;
+    
+    }
+}
+
 
 .cuadro2 {
     display: flex;
@@ -96,6 +146,11 @@ a {
     transform: scale(1.05);
 }
 
+.cuadro3:hover {
+    background-color: rgb(206, 206, 206);
+    transform: scale(1.05);
+}
+
 .cuadro2 img {
     width: 50px;
     height: 50px;
@@ -125,6 +180,19 @@ a {
 .registro {
     text-align: center;
 }
+
+.cuadro-ciudad-dia {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0px  55px;
+    width: fit-content;
+    p {
+        color: rgb(107, 107, 107);
+        margin:0
+    }   
+}
+
 
 .campo {
     
