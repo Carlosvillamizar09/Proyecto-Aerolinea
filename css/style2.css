@@ -27,6 +27,10 @@ a {
     color: gray;
 }
 
+.check-in {
+    text-decoration: none;
+}
+
 .contenedor-cuadros {
     display: flex;
     justify-content: center;
